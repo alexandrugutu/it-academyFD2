@@ -1,0 +1,157 @@
+https://github.com/uladzimir-miadzinski/it-academy-fd2/blob/main/logic-operations.md
+- - - - 1.- -  -
+<script>
+var a = 10, b = 2, c = 5;
+var result1 = (a + b + c);
+var min = (a - b - c);
+console.log(result1);
+console.log(min);
+</script>
+- - - - 2.A - - - — - - - - - - - - 
+var a = 10, b = 2, c = 5;
+
+if (a==0){
+console.log(true);
+}
+else {
+console.log(false);
+}
+- - - - 2.B- - — 
+var a = 2;
+if (a==0){
+console.log(true);
+} else if (a==1) {
+  console.log(true);
+}
+else if (a==-3) {
+  console.log(true);
+}
+else {
+  console.log(false);
+}
+- - - -  3.A- - - - - - - - - - -
+var a = 2,
+    b = 5;
+result = a + b;
+if(result > 5){
+  console.log(a + b);
+}
+else{
+  console.log(result * 10);
+}
+- -  - - 3.B - - 
+
+var a = 3,
+    b = 1;
+result = a + b;
+if(result > 5){
+  console.log(a + b);
+}
+else{
+  console.log(result * 10);
+}
+- - - - - 4. - - - - - - - - - - -
+
+var month = 1;
+function getSeason(month) {
+
+    if (3 <= month <= 5) {
+        return 'spring';
+    }
+
+    if (6 <= month <= 8) {
+        return 'summer';
+    }
+
+    if (9 <= month <= 11) {
+        return 'fall';
+    }
+
+    if (Months 12, 01, 02) {
+        return 'winter';
+    } 
+}
+console.log(getSeason); 
+
+- - - - - 5. - - - - - - - - - - - -
+if (a + b < 4) {
+  result = 'Мало';
+} else {
+  result = 'Много';
+}
+Решение:
+let (a + b < 4) ? 'Мало' : 'Много';
+
+- - - - - 6. - - - - - - - - - - - -
+let message;
+
+if (login == 'Вася') {
+  message = 'Привет';
+} else if (login == 'Директор') {
+  message = 'Здравствуйте';
+} else if (login == '') {
+  message = 'Нет логина';
+} else {
+  message = '';
+}
+
+Решение:
+
+let message = (login == 'Вася') ? 'Привет': 
+ (login == 'Директор') ? 'Здравствуйте':
+ (login == '') ? 'Нет логина' :
+'';
+
+- - - - - 7. - - - - - - - - - - - -
+Решение:
+
+<script>
+var name = prompt('назавите ФИО', '');
+var age = prompt(' возраст в годах', '');
+var gender = prompt('пол', '');
+var pension = prompt('вы на пенсии:', '');
+
+if (name == 'Иванов Иван Иванович') {
+  alert('ваше ФИО:'+ name,
+'ваш возраст в годах:'+ age,
+'через 5 лет вам будет:' age+5,
+'ваш пол:' +gender,
+'вы на пенсии:' + pension);
+} else {
+  alert('Неправильно.');
+}
+
+</script>
+
+
+-------------------------------------
+	Черновик
+- - - - - - - - - - - - - - - - - - -
+var name=prompt("Укажите своё имя:"),
+
+ surname=prompt("Укажите свою фамилию:"),
+
+ age=prompt("Укажите свой возраст в годах:"),
+ gender=prompt("Укажите свой пол:");
+
+alert("Здравствуйте "+name+" "+surname);
+
+alert(age<20?"Вы на пенсии":"нет");
+
+-----
+var years = prompt('Сколько вам лет?', 100);
+
+alert('ваш возраст ' + years + ' лет!')
+------
+let name = prompt('ваше ФИО:', '');
+console.log(name);
+
+if (year < 85) {
+  alert( 'вы на пенсии: нет');
+} 
+  else {
+  alert( 'вы на пенсии: да');
+}
+
+
+
